@@ -11,16 +11,14 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SimpleApp</a>
-            </div>
+            <div class="row">
+                <div class="container-fluid col-2">
+                    <a class="navbar-brand" asp-area="" asp-controller="Persons" asp-action="Index">Persons</a>
+                </div>
 
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Persons" asp-action="Index">Persons</a>
-            </div
-
-             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Emails" asp-action="Index">Emails</a>
+                 <div class="container-fluid col-2">
+                    <a class="navbar-brand" asp-area="" asp-controller="Emails" asp-action="Index">Emails</a>
+                </div>
             </div>
         </nav>
     </header>
